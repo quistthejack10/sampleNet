@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="Content/StyleSheet.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 797px;
+        }
+        .auto-style3 {
+            width: 833px;
+            text-align: center;
+        }
+        .auto-style4 {
+            width: 833px;
+            text-align: center;
+            height: 506px;
+        }
+        .auto-style6 {
+            width: 833px;
+            height: 130px;
+        }
+        .auto-style7 {
+            height: 130px;
+        }
+        .auto-style9 {
+            height: 506px;
+        }
+        .auto-style14 {
+            width: 296px;
+            height: 103px;
+        }
+        .auto-style15 {
+            width: 100%;
+            height: 38px;
+        }
+        .auto-style17 {
+            width: 578px;
+            text-align: center;
+        }
+        .auto-style18 {
+            text-align: center;
+        }
+        .auto-style19 {
+            width: 711px;
+            height: 130px;
+        }
+        .auto-style20 {
+            width: 711px;
+            text-align: center;
+            height: 506px;
+        }
+        .auto-style21 {
+            width: 711px;
+            text-align: center;
+        }
+        .auto-style22 {
+            width: 3995px;
+            height: 130px;
+        }
+        .auto-style23 {
+            width: 3995px;
+            text-align: center;
+            height: 506px;
+        }
+        .auto-style24 {
+            width: 3995px;
+            text-align: center;
+        }
+        .auto-style25 {
+            width: 207px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style19">
+                    
+                    &nbsp;</td>
+                <td class="auto-style22">
+                   
+                    <table class="auto-style15">
+                        <tr>
+                            <td class="auto-style25" style="color: #000000">Main</td>
+                            <td class="auto-style17" style="color: #000000"><a href="About.aspx" style="color: #000000">About</a></td>
+                            <td class="auto-style18" style="color: #000000"><a href="Resume.aspx" style="color: #000000">Resume</a></td>
+                        </tr>
+                    </table>
+                   
+                </td>
+                <td class="auto-style6">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+                    </td>
+                <td class="auto-style7"></td>
+            </tr>
+            <tr>
+                <td class="auto-style20" style="vertical-align: top; background-color: #FFFFFF;">
+                    &nbsp;</td>
+                <td class="auto-style23" style="vertical-align: top; background-color: #FFFFFF;">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style4" style="vertical-align: top; background-color: #FFFFFF;">
+                    &nbsp;</td>
+                <td class="auto-style9"></td>
+            </tr>
+            <tr>
+                <td class="auto-style21" style="vertical-align: top">
+                    &nbsp;</td>
+                <td class="auto-style24" style="vertical-align: top">
+                    <br />
+                    <br />
+                    <img alt="UNT logo" class="auto-style14" src="Images/unt%20logo.png" /><br />
+                    <br />
+                    <br />
+                    University of North Texas<br />
+                    Bachelors of Science<br />
+&nbsp;Business Computer Information Systems<br />
+                </td>
+                <td class="auto-style3" style="vertical-align: top">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
